@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercise_1_2.Page_result"
+             Title="Page_result">
+    <VerticalStackLayout>
+        <Label 
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            x:Name="txt_result"
+            Margin="15"
+            FontSize="18"
+            />
+    </VerticalStackLayout>
+</ContentPage>
