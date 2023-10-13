@@ -26,7 +26,7 @@ namespace Exercise_1_2 {
         }
 
         private bool validations(){//validations=validaciones
-            var name_surname=new Regex(@"^([A-Za-z]+)(?:\s[A-Za-z]+)?(?:\s[A-Za-z]+)?$");
+            var name_surname=new Regex(@"^([A-Za-záéíóúÁÉÍÓÚñÑ]+)(?:\s[A-Za-záéíóúÁÉÍÓÚñÑ]+)?(?:\s[A-Za-záéíóúÁÉÍÓÚñÑ]+)?$");
             var email=new Regex(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$");
 
             if(string.IsNullOrWhiteSpace(txt_names.Text) || string.IsNullOrWhiteSpace(txt_surnames.Text) || string.IsNullOrWhiteSpace(txt_email.Text)){
